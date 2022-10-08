@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Koulen&family=Playfair+Display&display=swap");
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 93.69px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #000;
+}
+#header-img {
+  width: 200px;
+  border-radius: 5px;
+  padding-bottom: 0;
+}
+#nav-bar {
+  width: 100%;
+}
+#nav-bar ul {
+  list-style-type: none;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#nav-bar li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.3em;
+  font-family: "Playfair Display", serif;
+}
+section {
+  margin: 60px;
+}
+#title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-family: "Koulen", cursive;
+  font-size: 1.5em;
+  letter-spacing: 0.3em;
+}
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+#form {
+  width: 100%;
+}
+#email {
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+#submit {
+  display: block;
+  margin: 10px auto;
+  width: 8%;
+  background-color: #fff;
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+#submit:hover {
+  background-color: #000;
+  color: #fff;
+}
+#our-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  margin-top: 50px;
+  height: 460px;
+}
+#about-us p {
+  font-family: "Playfair Display", serif;
+  color: #000;
+  font-size: 1.1em;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+#video {
+  width: 60%;
+  height: 100%;
+}
+@media (max-width: 900px) {
+  #video {
+    width: 65%;
+    height: 280px;
+  }
+}
+@media (max-width: 700px) {
+  #video {
+    width: 70%;
+    height: 190px;
+  }
+}
+@media (max-width: 500px) {
+  #video {
+    width: 80%;
+    height: 165px;
+  }
+}
+#contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 93.69px;
+  justify-content: flex-start;
+  background-color: #000;
+}
+#contact ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ion-icon {
+  color: #fff;
+  font-size: 32px;
+}
+#follow {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 1.2em;
+}
+@media (max-width: 600px) {
+  #header-img {
+    display: none;
+  }
+}
